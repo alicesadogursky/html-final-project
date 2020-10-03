@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+  
+  <!--Added styling here only because I have to submit 1 html file-->
+  <style>
+     h1, h2, details, p{
+  margin-left: 2.5rem;
+}
+nav li {
+  display:inline-block; 
+}
+.favorite-foods li {margin-left:2.5rem}
+.achievements {
+  list-style-type:none;
+}
+  </style>
+  
+</head>
+<body>
+
+  <!--Header-->
+ <header>
+   <h1>Alice Sadogursky</h1>
+  </header>
+ 
+<!--Navigation bar block-->
+ <nav>
+   <ul>
+     <li><a href="#foods-section" aria-label="link to paragraph">One</a></li>
+     <li><a href="#achievements-section" aria-label="link to paragraph">Two</a></li>
+     <li><a href="#me-section" aria-label="link to paragraph">Three</a></li>
+     <li><a href="https://www.seonist.pro" aria-label="link to paragraph">My Choice</a></li>
+   </ul>
+ </nav>  
+  <main>
+  <!--Favorite Foods Section-->
+  <section>
+    <header> 
+      <h2 id="foods-section">Favorite Foods</h2>   
+    </header>
+    <ul class="favorite-foods">
+      <li>Blackberries</li>
+      <li>Heavy Cream</li>
+      <li>Brie Cheese</li>
+      <li>Coffee</li>
+    </ul>
+  </section>
+ 
+  <!--Achievents Section-->
+  <section>
+    <header>
+      <h2 id="achievements-section">Achievements</h2>
+    </header>
+ <ul class="achievements">
+      <li><label>Progress in this course (100%) </label> <progress value="100" max="100">100%</progress></li>
+  <li><label>Progress in the Specializtion capstone (20%) </label><progress value="20" max="100">20%</progress></li>
+      <li> <label>Progress in life goals (67%) </label><progress value="67" max="100">67%</progress></li>
+    </ul>
+  </section>
+ 
+ <!--More About Me Section-->
+  <section>
+    <header>
+      <h2 id="me-section">More About Me</h2></header>
+    <details>
+      <summary>My Childhood</summary>
+      <p>I grew up in Russia and I don't miss it.</p>
+    </details>
+  </section>
+  </main>
+ <!--Footer-->
+  <footer>
+    
+    <p><img src="http://www.intro-webdesign.com/images/newlogo.png" alt="logo"/> 
+This page was created by Alice Sadogursky&Collen Van Lent. To learn more about web design, visit 
+  <a href="http://intro-webdesign.com/" aria-label="go to course website">Intro to Web Design.</a></p>
+  </footer>
+
+  </body>
+</html>
